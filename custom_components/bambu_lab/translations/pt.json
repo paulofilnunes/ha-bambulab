@@ -41,7 +41,7 @@
     },
     "step": {
       "user": {
-        "description": "A configuração via Bambu Lab Cloud é a mais simples e rápida. Contas de redes sociais sem password não são suportadas.\n\rTambém podes reutilizar credenciais de autenticação de outras impressoras. Se encontradas, serão listadas pelo endereço de e-mail.\n\rOu podes ligar fornecendo manualmente os detalhes de ligação local da impressora. Isto é obrigatório para impressoras em Modo LAN .",
+        "description": "A configuração via Bambu Lab Cloud é a mais simples e rápida. Contas de redes sociais sem password não são suportadas.\n\rTambém podes reutilizar credenciais de autenticação de outras impressoras. Se encontradas, serão listadas pelo endereço de e-mail.\n\rOu podes ligar fornecendo manualmente os detalhes de ligação local da impressora. Isto é obrigatório para impressoras em Modo LAN.",
         "data": {
           "printer_mode": "Modo de configuração da impressora:"
         }
@@ -88,7 +88,7 @@
         }
       },
       "Lan": {
-        "title": "Ligação em Modo LAN ",
+        "title": "Ligação em Modo LAN",
         "description": "Fornece o endereço IP local, o número de série e o código de acesso. O código de acesso encontra-se no ecrã da impressora, nas definições de rede (WLAN). O número de série (SN) encontra-se nas definições do dispositivo.",
         "data": {
           "serial": "Número de Série:",
@@ -140,7 +140,7 @@
     "step": {
       "init": {
         "title": "Ajustar definições de ligação",
-        "description": "A configuração via Bambu Lab Cloud é a mais simples e rápida. Contas de redes sociais sem password não são suportadas.\n\rTambém podes reutilizar credenciais de autenticação de outras impressoras. Se encontradas, serão listadas pelo endereço de e-mail.\n\rOu podes ligar fornecendo manualmente os detalhes de ligação local da impressora. Isto é obrigatório para impressoras em Modo LAN .",
+        "description": "A configuração via Bambu Lab Cloud é a mais simples e rápida. Contas de redes sociais sem password não são suportadas.\n\rTambém podes reutilizar credenciais de autenticação de outras impressoras. Se encontradas, serão listadas pelo endereço de e-mail.\n\rOu podes ligar fornecendo manualmente os detalhes de ligação local da impressora. Isto é obrigatório para impressoras em Modo LAN.",
         "data": {
           "printer_mode": "Modo de configuração da impressora:"
         }
@@ -182,7 +182,7 @@
         }
       },
       "Lan": {
-        "title": "Ligação em Modo LAN ",
+        "title": "Ligação em Modo LAN",
         "description": "Fornece o endereço IP local e o código de acesso. O código de acesso encontra-se no ecrã da impressora nas definições de rede (WLAN).",
         "data": {
           "host": "Endereço IP Local da Impressora:",
@@ -291,7 +291,7 @@
         "name": "Imagem de capa"
       },
       "pick_image": {
-        "name": "Escolher imagem"
+        "name": "Vista do modelo"
       }
     },
     "light": {
@@ -866,7 +866,7 @@
     "configuration_type": {
       "options": {
         "bambu": "Bambu Lab Cloud",
-        "lan": "Modo LAN "
+        "lan": "Modo LAN"
       }
     }
   },
@@ -885,7 +885,7 @@
     },
     "mqtt_encryption_enabled": {
       "title": "Encriptação MQTT ativa",
-      "description": "O dispositivo {device} está ligado à Cloud com encriptação MQTT ativa. Apenas a luz pode ser controlada por esta integração. Todos os outros controlos estão indisponíveis. A impressora deve ser colocada em Developer Modo LAN  para permitir o controlo pelo Home Assistant."
+      "description": "O dispositivo {device} está ligado à Cloud com encriptação MQTT ativa. Apenas a luz pode ser controlada por esta integração. Todos os outros controlos estão indisponíveis. A impressora deve ser colocada em Developer Modo LAN para permitir o controlo pelo Home Assistant."
     },
     "hybrid_mode_blocking": {
       "title": "Ligação híbrida bloqueia controlo",
